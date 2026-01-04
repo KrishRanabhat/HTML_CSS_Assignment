@@ -1,3 +1,4 @@
+/* Index.html file's CSS codes. */
 body{
 	background-image: url('Image_Resources/backimg.JPG');
     background-size: cover;
@@ -162,11 +163,70 @@ footer a:hover{
 }
 
 @keyframes colorchange{
-	from{color: cyan;}
-	to{color: lightblue;}
-	to{color: aqua;}
-	to{color: lightgreen;}
+	0%{color: cyan;}
+	30%{color: lightblue;}
+	60%{color: aqua;}
+	100%{color: lightgreen;}
 }
+
+
+/* Project.html */
+
+
+.projectmain {
+	display: grid;
+	margin: 50px 0 0 10px;
+}
+
+.projectcontainer {
+	display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+	gap: 40px;
+	justify-content: center;
+}
+
+.project {
+	display: flex;
+	align-items: center;
+	text-align: center;
+    flex-direction: column; 
+	column-gap: 10px;
+}
+
+.project img {
+	width: 300px;
+	display: block;
+	box-shadow: 3px 2px 25px 3px teal;
+	transition: transform 0.8s ease;
+} 
+
+.project img:hover{
+	transform: scale(1.4);
+}
+
+.project h3 {
+	animation-name: projectcolorchange;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes projectcolorchange{
+	0%{color: white;}
+	60%{color: cyan;}
+	100%{color: aqua;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive */
 @media screen and (max-width: 500px) {
@@ -203,4 +263,10 @@ footer a:hover{
 	  text-align: center;
   }
 
+.projectcontainer {
+	grid-template-columns: 200px 200px 200px 200px;
+}
+.project img {
+	width: 70%;
+}
 }
