@@ -58,7 +58,7 @@ h2 {
 	
 }
 
-.info div{
+.info span{
 	animation-name: myportfoliocolorchange;
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
@@ -193,7 +193,7 @@ h2 {
 }
 
 
-/* Project.html */
+/* Project.html file's CSS codes. */
 
 
 .projectmain {
@@ -240,7 +240,7 @@ h2 {
 }
 
 
-/* contact.html files's css code */
+/* contact.html files's CSS codes. */
 
 .messagehead {
 	font-size: 30px;
@@ -363,6 +363,60 @@ input[type="submit"]:hover {
     transition: transform 0.5s ease;
 
 }
+
+
+.contactinfo img {
+	transition: transform 0.5s ease;
+}
+
+.contactinfo img:hover {
+	transform: scale(1.2);
+}
+
+
+/* sitereport.html file's CSS code */
+
+
+.sitereportmain p {
+	background-color: rgba(81, 123, 130, 0.8);
+	padding: 80px;
+	font-size: 25px;
+	line-height: 1.5;
+
+}
+
+.sitereportmain h2 {
+	font-size: 40px;
+
+}
+
+.wireframeimg {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.wireframeimg img {
+  height: 400px; 
+  width: 700px;
+}
+
+.validateimg {
+  display: grid;
+  grid-template-columns: 1500px;
+  gap: 30px;
+  justify-items: center;
+}
+
+.validateimg img {
+  height: 400px; 
+  width: 800px;
+}
+
+
+
+
+
 
 
 /* Responsive */
