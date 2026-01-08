@@ -126,6 +126,7 @@ h2 {
 	justify-content: center;
 	align-items: center;
 	background-color: rgba(81, 123, 130, 0.7);
+	box-shadow: 2px 1px 15px 2px teal;
 	padding: 80px;
 }
 
@@ -377,11 +378,21 @@ input[type="submit"]:hover {
 /* sitereport.html file's CSS code */
 
 
+.sitereportmain {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
 .sitereportmain p {
 	background-color: rgba(81, 123, 130, 0.8);
 	padding: 80px;
 	font-size: 25px;
 	line-height: 1.5;
+	width: 1200px;
+	box-shadow: 3px 2px 25px 1px teal;
+	margin: 40px 0;
 
 }
 
@@ -399,6 +410,7 @@ input[type="submit"]:hover {
 .wireframeimg img {
   height: 400px; 
   width: 700px;
+  margin-bottom: 40px;
 }
 
 .validateimg {
@@ -469,8 +481,6 @@ input[type="submit"]:hover {
 	margin-top: 20px;
 	text-align: center;
 }
-
-
 
 .projectcontainer {
 	grid-template-columns: 300px;
