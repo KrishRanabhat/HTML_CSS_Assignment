@@ -375,6 +375,25 @@ input[type="submit"]:hover {
 }
 
 
+
+/* videodemo.html file's CSS codes. */
+
+.videodemomain {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.videodemomain iframe {
+	height: 400px;
+	width: 800px;
+	box-shadow: 3px 2px 25px 1px teal;
+
+}
+
+
+
+
 /* sitereport.html file's CSS code */
 
 
@@ -463,20 +482,6 @@ input[type="submit"]:hover {
 }
 
 
-/* videodemo.html file's CSS codes. */
-
-.videodemomain {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.videodemomain iframe {
-	height: 400px;
-	width: 800px;
-	box-shadow: 3px 2px 25px 1px teal;
-
-}
 
 
 
