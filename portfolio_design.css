@@ -1,6 +1,6 @@
 /* index.html file's CSS codes. */
 body{
-	background-image: url('Image_Resources/backimg.JPG');
+	background-image: url('Image_Resources/Backimg.JPG');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -603,6 +603,25 @@ input[type="submit"] {
 }
 
 
+/* demovideo.html's css code */
+
+.videodemomain {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.videodemomain h1 {
+	font-size: 23px;
+}
+
+.videodemomain iframe {
+	height: 200px;
+	width: 100%;
+	box-shadow: 3px 2px 25px 1px teal;
+
+}
+
 /* sitereport.html file's CSS codes. */
 
 
@@ -636,18 +655,7 @@ input[type="submit"] {
 	height: 250px;
 }
 
-.videodemomain {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
 
-.videodemomain iframe {
-	height: 200px;
-	width: 400px;
-	box-shadow: 3px 2px 25px 1px teal;
-
-}
 
 
 }
